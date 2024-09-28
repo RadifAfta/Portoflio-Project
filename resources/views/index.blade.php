@@ -9,7 +9,7 @@
     <!--
     - primary meta tags
   -->
-    <title>Julia - I'm User Interface Designer & Developer.</title>
+    <title>Furqon - I'm User Interface Designer & Developer.</title>
     <meta name="title" content="Julia - I'm User Interface Designer & Developer.">
     <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
 
@@ -46,10 +46,9 @@
 
     <header class="header" data-header>
         <div class="container">
-
-            <a href="#" class="logo">
-                <img src="/images/logo-dark.svg" width="64" height="24" alt="Julia home">
-            </a>
+            <div class="logo-header">
+                <h2>Furqon</h2>
+            </div>
 
             <nav class="navbar" data-navbar>
 
@@ -70,19 +69,19 @@
                     </li>
 
                     <li>
-                        <a href="#" class="navbar-link">About</a>
+                        <a href="#link-about" class="navbar-link">About</a>
                     </li>
 
                     <li>
-                        <a href="#" class="navbar-link">Projects</a>
+                        <a href="#link-project" class="navbar-link">Projects</a>
                     </li>
 
-                    <li>
+                    {{-- <li>
                         <a href="#" class="navbar-link">Blog</a>
-                    </li>
+                    </li> --}}
 
                     <li>
-                        <a href="#" class="navbar-link">Contact</a>
+                        <a href="#link-contact" class="navbar-link">Contact</a>
                     </li>
 
                 </ul>
@@ -153,10 +152,10 @@
                 <div class="container">
 
                     <figure class="hero-banner">
-                        <img src="/images/hero-banner.jpg" width="560" height="540" alt="Julia" class="w-100"
+                        <img src="/images/pp.jpg" width="560" height="540" alt="Julia" class="w-100"
                             data-reveal="top">
 
-                        <img src="/images/hero-shape.svg" width="203" height="91" alt="250+ Projects Done"
+                        <img src="/images/ttt.jpg" width="203" height="91" alt="250+ Projects Done"
                             class="shape" data-reveal="top" data-reveal-delay="0.25s">
                     </figure>
 
@@ -167,7 +166,7 @@
                         </h1>
 
                         <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
-                            Hello! I'm Julia, a freelance user interface designer & developer based in London. I’m very
+                            Hello! I'm Furqon, a freelance user interface designer & developer based in Indonesian. I’m very
                             passionate
                             about the work that I do.
                         </p>
@@ -175,7 +174,7 @@
                         <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
                             <a href="#" class="btn btn-primary">See My Works</a>
 
-                            <a href="#" class="btn btn-secondary">Contact Me</a>
+                            <a href="#link-contact" class="btn btn-secondary">Contact Me</a>
                         </div>
 
                     </div>
@@ -191,7 +190,7 @@
         - #ABOUT
       -->
 
-            <section class="section about" aria-label="about">
+            <section class="section about" aria-label="about" id="link-about">
                 <div class="container">
 
                     <div class="wrapper">
@@ -361,7 +360,7 @@
         - #PROJECT
       -->
 
-            <section class="section project" aria-labelledby="project-label">
+            <section class="section project" aria-labelledby="project-label" id="link-project">
                 <div class="container">
 
                     <div class="title-wrapper" data-reveal="top">
@@ -374,7 +373,7 @@
                             </p>
                         </div>
 
-                        <a href="#" class="btn btn-secondary">See All Projects</a>
+                        <a href="{{ route('all_project') }}" class="btn btn-secondary">See All Projects</a>
 
                     </div>
 
@@ -395,7 +394,7 @@
                                         porta felis euismod semper. Fusce dapibus tellus cursus.
                                     </p>
 
-                                    <a href="#" class="btn-text" style="color: #a07cc5">
+                                    <a href="https://codewithsadee.github.io/julia-portfolio/" class="btn-text" style="color: #a07cc5">
                                         <span class="span">See Project</span>
 
                                         <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -517,7 +516,7 @@
         - #CONTACT
       -->
 
-            <section class="section contact" aria-label="contact">
+            <section class="section contact" aria-label="contact" id="link-contact">
                 <div class="container">
 
                     <div class="contact-card">
@@ -575,7 +574,7 @@
         <div class="container">
 
             <p class="copyright">
-                © 2022 codewithsadee. All rights reserved.
+                © 2024 codewithsadee. All rights reserved.
             </p>
 
             <ul class="social-list">

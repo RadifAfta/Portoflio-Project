@@ -196,10 +196,10 @@
   .h4 { font-size: var(--fs-4); }
   
   .btn {
-    color: var(--cinnamon-satin);
+    color: #A594F9;
     font-size: var(--fs-6);
     font-weight: var(--fw-700);
-    border: 2px solid var(--cinnamon-satin);
+    border: 2px solid #A594F9;
     max-width: max-content;
     padding: 12px 28px;
     border-radius: var(--radius-pill);
@@ -211,7 +211,7 @@
   
   .btn-primary,
   .btn-secondary:is(:hover, :focus-visible) {
-    background-color: var(--cinnamon-satin);
+    background-color: #A594F9;
     color: var(--white);
   }
   
@@ -275,6 +275,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .logo-header{
+    color: #343F52 ;
   }
   
   .nav-open-btn {
@@ -393,6 +397,8 @@
     bottom: 10%;
     right: 2%;
     filter: drop-shadow(var(--shadow-2));
+    border: 1px solid white;
+    border-radius: 6px;
   }
   
   .hero-content { text-align: center; }
@@ -448,9 +454,6 @@
   }
   
   .about-card .card-title { margin-block: 16px 10px; }
-  
-  
-  
   
   
   /*-----------------------------------*\
