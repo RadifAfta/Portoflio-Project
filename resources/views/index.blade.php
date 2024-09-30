@@ -155,8 +155,8 @@
                         <img src="/images/pp.jpg" width="560" height="540" alt="Julia" class="w-100"
                             data-reveal="top">
 
-                        <img src="/images/ttt.jpg" width="203" height="91" alt="250+ Projects Done"
-                            class="shape" data-reveal="top" data-reveal-delay="0.25s">
+                        <img src="/images/ttt.jpg" width="203" height="91" alt="250+ Projects Done" class="shape"
+                            data-reveal="top" data-reveal-delay="0.25s">
                     </figure>
 
                     <div class="hero-content">
@@ -166,7 +166,8 @@
                         </h1>
 
                         <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
-                            Hello! I'm Furqon, a freelance user interface designer & developer based in Indonesian. I’m very
+                            Hello! I'm Furqon, a freelance user interface designer & developer based in Indonesian. I’m
+                            very
                             passionate
                             about the work that I do.
                         </p>
@@ -394,7 +395,8 @@
                                         porta felis euismod semper. Fusce dapibus tellus cursus.
                                     </p>
 
-                                    <a href="https://codewithsadee.github.io/julia-portfolio/" class="btn-text" style="color: #a07cc5">
+                                    <a href="https://codewithsadee.github.io/julia-portfolio/" class="btn-text"
+                                        style="color: #a07cc5">
                                         <span class="span">See Project</span>
 
                                         <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -538,20 +540,17 @@
 
                         </div>
 
-                        <form action="" class="contact-form" data-reveal="right">
-
+                        <form action="{{ route('contact.submit') }}" method="POST" class="contact-form"
+                            data-reveal="right">
+                            @csrf
                             <div class="input-wrapper">
-                                <input type="text" name="name" placeholder="Name *" required
+                                <input type="text" name="name" placeholder="Nama *" required
                                     class="input-field">
-
                                 <input type="email" name="email_address" placeholder="Email *" required
                                     class="input-field">
                             </div>
-
-                            <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
-
-                            <button type="submit" class="btn btn-secondary">Send message</button>
-
+                            <textarea name="message" placeholder="Pesan *" required class="input-field"></textarea>
+                            <button type="submit" class="btn btn-secondary">Kirim pesan</button>
                         </form>
 
                     </div>
