@@ -9,7 +9,7 @@
     <!--
     - primary meta tags
   -->
-    <title>Furqon - I'm User Interface Designer & Developer.</title>
+    <title>Furqon - I'm Full Stack Developer.</title>
     <meta name="title" content="Julia - I'm User Interface Designer & Developer.">
     <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
 
@@ -162,18 +162,18 @@
                     <div class="hero-content">
 
                         <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
-                            I'm User Interface Designer & Developer.
+                            I'm Fullstack Developer.
                         </h1>
 
                         <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
-                            Hello! I'm Furqon, a freelance user interface designer & developer based in Indonesian. I’m
+                            Hello! I'm Furqon, a fullstack developer based in Indonesian. I’m
                             very
                             passionate
                             about the work that I do.
                         </p>
 
                         <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
-                            <a href="#" class="btn btn-primary">See My Works</a>
+                            <a href="#link-project" class="btn btn-primary">See My Works</a>
 
                             <a href="#link-contact" class="btn btn-secondary">Contact Me</a>
                         </div>
@@ -544,13 +544,13 @@
                             data-reveal="right">
                             @csrf
                             <div class="input-wrapper">
-                                <input type="text" name="name" placeholder="Nama *" required
+                                <input type="text" name="name" placeholder="Name *" required
                                     class="input-field">
                                 <input type="email" name="email_address" placeholder="Email *" required
                                     class="input-field">
                             </div>
-                            <textarea name="message" placeholder="Pesan *" required class="input-field"></textarea>
-                            <button type="submit" class="btn btn-secondary">Kirim pesan</button>
+                            <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+                            <button type="submit" class="btn btn-secondary">Send message</button>
                         </form>
 
                     </div>
