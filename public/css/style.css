@@ -544,9 +544,51 @@
     max-height: 240px;
     resize: vertical;
   }
+
   
-  
-  
+  .contact-content {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* This adds space between each contact-item */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.card-icon {
+    margin-right: 15px;
+}
+
+.card-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-details h3 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .contact-info {
+        gap: 20px; /* Slightly reduce the gap on smaller screens */
+    }
+}
   
   
   /*-----------------------------------*\

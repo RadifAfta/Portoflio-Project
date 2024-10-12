@@ -9,9 +9,9 @@
 
 <body>
     <h1>Pengiriman dari Website Portofolio</h1>
-    <p><strong>Nama:</strong> {{ $data['name'] }}</p>
+    <p><strong>Name:</strong> {{ $data['name'] }}</p>
     <p><strong>Email:</strong> {{ $data['email_address'] }}</p>
-    <p><strong>Pesan:</strong></p>
+    <p><strong>Message:</strong></p>
     <p>{{ $data['message'] }}</p>
 </body>
 

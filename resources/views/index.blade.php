@@ -525,18 +525,40 @@
 
                         <div class="contact-content" data-reveal="left">
 
-                            <div class="card-icon">
-                                <img src="/images/icon-5.svg" width="44" height="44" loading="lazy"
-                                    alt="envelop icon">
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <div class="card-icon">
+                                        <img src="/images/phone.svg" width="30" height="30"
+                                            loading="lazy" alt="phone icon">
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>Phone</h3>
+                                        <p>+1 (123) 456-7890</p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="card-icon">
+                                        <img src="/images/email.svg" width="30" height="30"
+                                            loading="lazy" alt="email icon">
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>Email</h3>
+                                        <p>contact@example.com</p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="card-icon">
+                                        <img src="/images/location.svg" width="30" height="30"
+                                            loading="lazy" alt="location icon">
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>Address</h3>
+                                        <p>123 Main Street, City, Country, 12345</p>
+                                    </div>
+                                </div>
                             </div>
-
-                            <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
-
-                            <p class="section-text">
-                                I bring rapid solutions to make the life of my clients easier. Have any questions? Reach
-                                out to me from
-                                this contact form and I will get back to you shortly.
-                            </p>
 
                         </div>
 
