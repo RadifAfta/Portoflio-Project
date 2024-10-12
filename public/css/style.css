@@ -338,7 +338,7 @@
   
   .contact-link { transition: var(--transition-1); }
   
-  .contact-link:is(:hover, :focus-visible) { color: var(--cinnamon-satin); }
+  .contact-link:is(:hover, :focus-visible) { color: #A594F9; }
   
   .overlay {
     position: fixed;
@@ -517,7 +517,7 @@
   .contact { padding-block-end: 0; }
   
   .contact-card {
-    background-color: var(--snow);
+    background-color: var(--cultured);
     padding: 32px;
     border-radius: var(--radius-8);
     display: grid;
@@ -775,7 +775,7 @@
       transition: var(--transition-1);
     }
   
-    .navbar-link:is(:hover, :focus-visible) { color: var(--cinnamon-satin); }
+    .navbar-link:is(:hover, :focus-visible) { color: #A594F9; }
   
     .navbar .social-link {
       color: var(--charcoal);
