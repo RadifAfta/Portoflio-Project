@@ -73,6 +73,10 @@
                     </li>
 
                     <li>
+                        <a href="#link-about" class="navbar-link">Services</a>
+                    </li>
+
+                    <li>
                         <a href="#link-project" class="navbar-link">Projects</a>
                     </li>
 
@@ -353,7 +357,50 @@
                 </div>
             </section>
 
+            <!--
+        - #QUALITY SERVICES
+      -->
 
+            <section class="section services" aria-label="services">
+                <div class="container">
+                    <h2 class="h2 section-title">Quality Services</h2>
+
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <img src="/images/language.svg" alt="Brand Identity Design" width="44"
+                                    height="44">
+                            </div>
+                            <h3 class="h4 card-title">Brand Identity Design</h3>
+                            <p class="card-text">
+                                Gives you the blocks & kits you need to create a true website within minutes.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <img src="/images/feather.svg" alt="Website Design" width="44"
+                                    height="44">
+                            </div>
+                            <h3 class="h4 card-title">Website Design</h3>
+                            <p class="card-text">
+                                 Gives you the blocks & kits you need to create a true website within minutes.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <img src="/images/layer.svg" alt="Application Design" width="44"
+                                    height="44">
+                            </div>
+                            <h3 class="h4 card-title">Application Design</h3>
+                            <p class="card-text">
+                                Gives you the blocks & kits you need to create a true website within minutes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
@@ -528,8 +575,8 @@
                             <div class="contact-info">
                                 <div class="contact-item">
                                     <div class="card-icon">
-                                        <img src="/images/phone.svg" width="30" height="30"
-                                            loading="lazy" alt="phone icon">
+                                        <img src="/images/phone.svg" width="30" height="30" loading="lazy"
+                                            alt="phone icon">
                                     </div>
                                     <div class="contact-details">
                                         <h3>Phone</h3>
@@ -539,8 +586,8 @@
 
                                 <div class="contact-item">
                                     <div class="card-icon">
-                                        <img src="/images/email.svg" width="30" height="30"
-                                            loading="lazy" alt="email icon">
+                                        <img src="/images/email.svg" width="30" height="30" loading="lazy"
+                                            alt="email icon">
                                     </div>
                                     <div class="contact-details">
                                         <h3>Email</h3>
@@ -550,8 +597,8 @@
 
                                 <div class="contact-item">
                                     <div class="card-icon">
-                                        <img src="/images/location.svg" width="30" height="30"
-                                            loading="lazy" alt="location icon">
+                                        <img src="/images/location.svg" width="30" height="30" loading="lazy"
+                                            alt="location icon">
                                     </div>
                                     <div class="contact-details">
                                         <h3>Address</h3>
