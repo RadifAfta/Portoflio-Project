@@ -73,7 +73,7 @@
                     </li>
 
                     <li>
-                        <a href="#link-about" class="navbar-link">Services</a>
+                        <a href="#link-services" class="navbar-link">Services</a>
                     </li>
 
                     <li>
@@ -361,7 +361,7 @@
         - #QUALITY SERVICES
       -->
 
-            <section class="section services" aria-label="services">
+            <section class="section services" aria-label="services" id="link-services">
                 <div class="container">
                     <h2 class="h2 section-title" data-reveal="top">Quality Services</h2>
 
