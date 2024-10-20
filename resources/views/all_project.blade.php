@@ -121,15 +121,15 @@
             </div>
 
             <ul class="grid-list">
+
                 <li>
-                    <div class="project-card project-card-1" style="background-color: #f8f5fb">
+                    <div class="project-card project-card-1" style="background-color: #f8f5fb"
+                        data-images="images/project-2.png,images/project-3.png,images/project-4.png">
                         <div class="card-content" data-reveal="left">
                             <p class="card-tag" style="color: #a07cc5">Web Design</p>
                             <h3 class="h3 card-title">Snowlake Theme</h3>
-                            <p class="card-text">
-                                Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque
-                                id ligula porta felis euismod semper. Fusce dapibus tellus cursus.
-                            </p>
+                            <p class="card-text">Maecenas faucibus mollis interdum sed posuere consectetur est
+                                at lobortis. Scelerisque id ligula porta felis euismod semper.</p>
                             <a href="#" class="btn-text" style="color: #a07cc5">
                                 <span class="span">See Project</span>
                                 <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -144,43 +144,63 @@
 
                 <li>
                     <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
                         <div class="card-content" data-reveal="right">
-                            <p class="card-tag" style="color: #3f78e0">Mobile Design</p>
+
+                            <p class=" card-tag" style="color: #3f78e0">Mobile Design</p>
+
                             <h3 class="h3 card-title">Budget App</h3>
+
                             <p class="card-text">
-                                Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque
-                                id ligula porta felis euismod semper. Fusce dapibus tellus cursus.
+                                Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.
+                                Scelerisque id ligula
+                                porta felis euismod semper. Fusce dapibus tellus cursus.
                             </p>
+
                             <a href="#" class="btn-text" style="color: #3f78e0">
                                 <span class="span">See Project</span>
+
                                 <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                             </a>
+
                         </div>
+
                         <figure class="card-banner" data-reveal="left">
                             <img src="/images/project-2.png" width="600" height="367" loading="lazy"
                                 alt="Web Design" class="w-100">
                         </figure>
+
                     </div>
                 </li>
+
                 <li>
-                    <div class="project-card project-card-3" style="background-color: #f8f5fb">
+                    <div class="project-card project-card-3" style="background-color: #f5faf7">
+
                         <div class="card-content" data-reveal="left">
-                            <p class="card-tag" style="color: #a07cc5">Web Development</p>
-                            <h3 class="h3 card-title">Portfolio Website</h3>
+
+                            <p class=" card-tag" style="color: #7cb798">Web Design</p>
+
+                            <h3 class="h3 card-title">Missio Theme</h3>
+
                             <p class="card-text">
-                                Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet
-                                fermentum.
-                                Fusce dapibus tellus cursus commodo.
+                                Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta
+                                lobortis. Scelerisque
+                                id ligula felis.
                             </p>
-                            <a href="#" class="btn-text" style="color: #a07cc5">
+
+                            <a href="#" class="btn-text" style="color: #7cb798">
                                 <span class="span">See Project</span>
+
                                 <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                             </a>
+
                         </div>
+
                         <figure class="card-banner" data-reveal="right">
-                            <img src="/images/project-3.png" width="650" height="370" loading="lazy"
-                                alt="Portfolio Website" class="w-100">
+                            <img src="/images/project-3.png" width="600" height="367" loading="lazy"
+                                alt="Web Design" class="w-100">
                         </figure>
+
                     </div>
                 </li>
 
@@ -215,10 +235,18 @@
                     </div>
                 </li>
 
-
             </ul>
         </div>
     </section>
+
+    <!-- Modal Structure -->
+    <div id="projectModal" class="modal">
+        <button class="modal-close">×</button>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    
 
     <footer class="footer">
         <div class="container">
