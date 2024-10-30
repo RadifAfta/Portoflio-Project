@@ -53,3 +53,7 @@ $response = $kernel->handle(
 )->send();
 
 $kernel->terminate($request, $response);
+
+// Di awal file setelah require
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
