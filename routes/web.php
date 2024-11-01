@@ -21,4 +21,4 @@ Route::get('/', function () {
 
 Route::get('/projects', [AllProject::class, 'showProjects'])->name('all_project');
 
-Route::post('/contact', [App\Http\Controllers\ContactController::class, 'submit'])->name('contact.submit');
+Route::post('/contact', [App\Http\Controllers\ContactController::class, 'submit'])->name('contact.submit')->middleware(['web', 'throttle:6.1' ]);

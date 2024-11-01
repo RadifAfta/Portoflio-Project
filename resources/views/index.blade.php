@@ -602,10 +602,11 @@
 
                         </div>
 
-                        <form action="{{ route('contact.submit') }}" method="POST" class="contact-form"
+                        <form action="{{ secure_url('contact.submit') }}" method="POST" class="contact-form"
                             data-reveal="right">
                             @csrf
                             <div class="input-wrapper">
+                                <input type="hidden" name="honeypot" value="">
                                 <input type="text" name="name" placeholder="Name *" required
                                     class="input-field">
                                 <input type="email" name="email_address" placeholder="Email *" required
