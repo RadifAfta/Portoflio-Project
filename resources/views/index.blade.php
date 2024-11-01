@@ -602,7 +602,7 @@
 
                         </div>
 
-                        <form action="{{ route('contact.submit') }}" method="POST" class="contact-form"
+                        <form action="{{ secure_url('contact.submit') }}" method="POST" class="contact-form"
                             data-reveal="right">
                             @csrf
                             <div class="input-wrapper">
