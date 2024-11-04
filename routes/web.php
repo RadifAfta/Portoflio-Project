@@ -14,6 +14,7 @@ use App\Http\Controllers\AllProject;
 |
 */
 
+
 Route::get('/', function () {
     return view('index');
 });

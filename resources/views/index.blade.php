@@ -603,14 +603,14 @@
                         </div>
 
                         <form action="{{ route('contact.submit') }}" method="POST" class="contact-form"
-                            data-reveal="right">
+                            data-reveal="right" autocomplete="on">
                             @csrf
                             <div class="input-wrapper">
                                 <input type="hidden" name="honeypot" value="">
                                 <input type="text" name="name" placeholder="Name *" required
-                                    class="input-field">
+                                    class="input-field" autocomplete="name">
                                 <input type="email" name="email_address" placeholder="Email *" required
-                                    class="input-field">
+                                    class="input-field" autocomplete="email">
                             </div>
                             <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
                             <button type="submit" class="btn btn-secondary">Send message</button>
